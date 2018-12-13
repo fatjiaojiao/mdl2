@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/reg.css" /> 
+	</head>
+	<body>
+		<div class="box">
+			<!--灰色头部-->
+			<div class="head">
+				<div>
+					<a href="#">中文</a>
+					<div class="triangle"></div>
+					<a href="#">English</a>
+				</div>
+				<div>
+					<a href="#">登录</a>
+					<a href="#">追踪订单</a>
+				</div>
+			</div>
+			<!--导航栏-->
+			<div class="nav">
+				<div>
+					<a href=""><img src="img/waimai/z2logo.jpg"/></a>
+				</div>
+				<div class="navBox">
+					<a href="#">
+						<i class="iconfont icon-mianbao"></i>浏览菜单
+					</a>
+				</div>
+				<div class="navBox noPad">
+					<a href="#">
+						<i class="iconfont icon-mianbao"></i>优惠券
+					</a>
+				</div>
+				<div class="navBox noPad">
+					<a href="#">
+						<i class="iconfont icon-geren"></i>我的账户
+					</a>
+				</div>
+				<div class="navBox noPad">
+					<a href="#" class="twins" id="twins">
+						<i class="iconfont icon-dianhua"></i>帮助
+						<span class="triSpan"></span>
+					</a>
+					<div class="disUl">
+						<div id="noneUL">
+							<span></span>
+							<ul>
+								<li><a href="">网站条款</a></li>
+								<li><a href="">隐私政策</a></li>
+								<li><a href="">订餐须知</a></li>
+								<li><a href="">常见问题</a></li>
+								<li><a href="">关于30分钟必达</a></li>
+								<li><a href="">经营公示</a></li>
+								<li><a href="">安全公示</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--标题分割-->
+			<div class="cutLine">
+				<h1>恭喜您！您所在地址已经开通麦乐送服务。请注册账户开始订餐。</h1>
+			</div>	
+			<!--表单验证-->
+			<div class="inputBox">
+				<form><!--action="regSave.php" method="post"  -->
+					<div class="formBox">
+						<div class="title">
+							<h2>补充个人信息</h2>
+							<p>* 为必填内容</p>
+						</div>
+						<div class="call">
+							<span>称呼:</span>
+							<select name="callname" id="call">
+								<option value="先生">先生</option>
+								<option value="女士">女士</option>
+								<option value="小姐">小姐</option>
+							</select>
+						</div>
+						<div class="user">
+							<span>*姓名:</span>
+							<input type="text" class="username" name="username" required/>
+						</div>
+						<div class="bornDate">
+							<span>出生日期:</span>
+							<div class="dateBox">
+								<div class="dayNum">
+									<select name="day" placeholder="日">
+										<option>日</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+										<option>21</option>
+										<option>22</option>
+										<option>23</option>
+										<option>24</option>
+										<option>25</option>
+										<option>26</option>
+										<option>27</option>
+										<option>28</option>
+										<option>29</option>
+										<option>30</option>
+										<option>31</option>
+									</select>
+								</div>
+								<div class="month">
+									<select name="month" placeholder="月">
+										<option>月</option>
+										<option>一月</option>
+										<option>二月</option>
+										<option>三月</option>
+										<option>四月</option>
+										<option>五月</option>
+										<option>六月</option>
+										<option>七月</option>
+										<option>八月</option>
+										<option>九月</option>
+										<option>十月</option>
+										<option>十一月</option>
+										<option>十二月</option>
+									</select>
+								</div>
+								<div class="yearNum">
+									<select name="year" placeholder="年">
+										<option>年</option>
+										<option>1990</option>
+										<option>1991</option>
+										<option>1992</option>
+										<option>1993</option>
+										<option>1994</option>
+										<option>1995</option>
+										<option>1996</option>
+										<option>1997</option>
+										<option>1998</option>
+										<option>1999</option>
+										<option>2000</option>
+										<option>2001</option>
+										<option>2002</option>
+										<option>2003</option>
+										<option>2004</option>
+										<option>2005</option>
+										<option>2006</option>
+										<option>2007</option>
+										<option>2008</option>
+										<option>2009</option>
+										<option>2010</option>
+										<option>2011</option>
+										<option>2012</option>
+										<option>2013</option>
+										<option>2014</option>
+										<option>2015</option>
+										<option>2016</option>
+										<option>2017</option>
+										<option>2018</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="phone">
+							<span>*手机号:</span>
+							<p class="sqlP">此号码已被注册</p>
+							<input type="text" placeholder="仅限数字" id="phone" name="phonenumber" required/>
+							<!--<p>手机格式不正确</p>-->
+						</div>
+						<div class="email">
+							<span>*邮箱:</span>
+							<p>邮箱格式不正确</p>
+							<input type="text" placeholder="name@mail.com" name="email" id="email" required/>
+						</div>
+						<div class="title">
+							<h2>首选登录和通知方式</h2>
+							<p>我们将把帐户激活信息发至您所选的方式。</p>
+						</div>
+						<div class="checkWay">
+							<span><input type="radio" name="way" checked/>邮箱</span>
+							<span><input type="radio" name="way"/>手机号</span>
+						</div>
+						<div class="password">
+							<span>*密码:</span>
+							<input type="password" name="pass" id="pass" required/>
+							<span class="crect">密码必须为8-20位字符，至少含有{2}个数字和1个字母或特殊符号@#$%^&+=!~</span>
+						</div>
+						<div class="checkPass">
+							<span>*确认密码:</span>
+							<input type="password" required/>
+						</div>
+						<div class="book">
+							<div class="agree">
+								<span class="clickSpan"><img src="img/dui.png"/></span>
+								<p> 
+									是的，我已经阅读并同意 
+									<a href="">网站条款</a>,
+									<a href="">隐私政策</a>和
+									<a href="">订餐须知</a>。*
+								</p>
+							</div>
+							<div class="acept">
+								<span class="clickSpan"><img src="img/dui.png"/></span>
+								<p>是的，我愿意接收来自麦当劳的促销信息。</p>
+							</div>
+							<input class="login" id="login" type="button" value="创建账户"/>
+						</div>
+					</div>
+				</form>
+				<div class="priceLess">
+					<p>优惠信息</p>
+					<p>注册后可以获得以下权利</p>
+					<ul>
+						<li>快速结账</li>
+						<li>保存订单信息和定制信息</li>
+						<li>专享产品和优惠</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+		<!--底部列表-->
+		<div class="footBox">
+			<div class="footList">
+				<div class="lisBox">
+					<h3>浏览菜单</h3>
+					<ul>
+						<li><a href="">促销产品和热卖产品</a></li>
+						<li><a href="">主食和超值早餐套餐</a></li>
+						<li><a href="">小食</a></li>
+						<li><a href="">甜品</a></li>
+						<li><a href="">饮品</a></li>
+						<li><a href="">开心乐园餐</a></li>
+					</ul>
+				</div>
+				<div class="lisBox">
+					<h3>帮助</h3>
+					<ul>
+						<li><a href="">网站条款</a></li>
+						<li><a href="">隐私政策</a></li>
+						<li><a href="">订餐须知</a></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">关于30分钟必达</a></li>
+						<li><a href="">经营公示</a></li>
+						<li><a href="">经营公示</a></li>
+					</ul>
+				</div>
+				<div class="lisBox">
+					<h3>关注我们</h3>
+					<ul class="footAI">
+						<li>
+							<a href=""><i class="iconfont icon-xinlang"></i>新浪微博</a>
+						</li>
+						<li>
+							<a href=""><i class="iconfont icon-weixin2"></i>微信</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部工商-->
+		<div class="police">
+			<div class="check">2014 麦当劳版权所有 | 沪 ICP备06017533号-6
+				<a href="#">
+					<sapn>
+						<img src="img/waimai/police_logo.jpg"/>
+					</sapn>沪公网安备31010402000847号
+				</a>
+			</div>
+			<div class="check">
+				金色拱门和“我就喜欢”是麦当劳及其关联公司的商标。
+			</div>
+			<div class="check">
+				<a href=""><img src="img/waimai/z1logo.gif"/></a>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/ajaxTools.js"></script>
+<script type="text/javascript" src="js/getElementTools.js"></script>
+<script type="text/javascript">
+	window.onload = function(){
+		Ele("#phone").onblur=checkusername;
+		Ele("#login").onclick=reg;
+		//点击对勾出现(利用回调函数但是没写出来)
+		$(".clickSpan").click(function(){
+			$(".clickSpan").children().css({"display":"none"});
+			$(this).children().css({"display":"block"});
+			$(this).click(function(){
+				$(this).children().css({"display":"none"});
+				$(".clickSpan").click(function(){
+					$(".clickSpan").children().css({"display":"none"});
+					$(this).children().css({"display":"block"});
+				})
+			})
+		})
+		//正则
+//		Ele("#phone").onblur=function(){
+//			let pattern=/^\d{11}$/;
+//			if(pattern.test(this.value)==true){
+//				$(".phone p").eq(1).css({"display":"none"});
+//			}else{
+//				$(".phone p").eq(1).css({"display":"block"});
+//			}
+//		}
+		Ele("#email").onblur=function(){
+			let pattern=/^\w+@\w+\.(com|cn|net)$/;
+			if(pattern.test(this.value)==true){
+				$(".email p").css({"display":"none"});
+			}else{
+				$(".email p").css({"display":"block"});
+			}
+		}
+		Ele("#pass").onblur=function(){
+			let pattern=/^[\w]+[\d]{2,}[a-zA-Z|\@|\#|\$|\%|\^|\&|\+|\=|\!|\~|][\w]{4,16}$/;
+			if(pattern.test(this.value)==true){
+				return;
+			}else{
+				$(".crect").html("密码格式不正确");
+			}
+		}
+		//连接数据库
+		function checkusername(){
+			ajax180803({
+					"url":"reg.php",
+					"param":"phonenumber="+this.value,
+					"func":showData1
+				});
+		}
+		function showData1(str){
+			if(str=="0"){
+				$(".phone p").css({"display":"none"});
+			}else{
+				$(".phone p").css({"display":"block"});
+			}
+		}
+		function reg(){
+			ajax180803({
+					"url":"regSave.php",
+					"param":"callname="+$("#call").val()+"&username="+$(".username").val()+"&phonenumber="+$("#phone").val()+"&email="+$("#email").val()+"&pass="+$("#pass").val(),
+					"func":showData2
+				});
+		}
+		function showData2(str){
+			if(str=="1"){
+				location.href="takeout.html";
+			}else{
+				location.href="reg.html";
+			}
+		}
+	}
+	
+</script>

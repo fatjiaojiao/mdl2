@@ -1,0 +1,169 @@
+@import "commonChildPage.css";
+/*分割线*/
+.cutLine{
+	width:100%;
+	text-align:center;
+}
+.cutLine h1{
+	font-size:16px;
+	border-bottom:1px dashed rgb(161,161,161);
+	line-height:16px;
+	padding:10px 0;
+	margin-bottom:10px;
+}
+/*表单验证*/
+.inputBox{
+	width:100%;
+}
+.inputBox form{
+	width:758px;
+	height:1205px;
+	padding:0 60px;
+	display:inline-block;
+}
+.formBox{
+	padding-top:20px;
+}
+.formBox div{
+	font-size:14px;
+	color:#3d3d3d;
+	margin-bottom:20px;
+}
+.title h2{
+	color: #f3ad12;
+	font-weight:300;
+	font-size:20px;
+}
+.title p{
+	color: #b0b0b0;
+	font-size:12px;
+}
+.formBox .call{
+	width:364px;
+	height:72px;
+}
+.call span,.user span,.bornDate span,.phone span,.email span,.password span,.checkPass span{
+	display:block;
+	width:100px;
+	height:22px;
+	font-size:16px;
+	padding-bottom:10px;
+}
+.call select{
+	width:362px;
+	height:43px;
+	border-radius:4px;
+	border:1px solid #ccc;
+}
+.user input{
+	width:758px;
+	height:44px;
+	font-size:16px;
+	border-radius:4px;
+	border:1px solid #ccc;
+}
+.dateBox{
+	display:flex;
+}
+.dateBox div select{
+	width:230px;
+	height:43px;
+	margin-right:30px;
+	border-radius:4px;
+	border:1px solid #ccc;
+}
+.formBox .phone input,.formBox .email input,.password input,.checkPass input{
+	width:738px;
+	height:44px;
+	font-size:14px;
+	color:#ccc;
+	border-radius:4px;
+	border:1px solid #ccc;
+	padding-left:20px;
+}
+.checkWay{
+	width:738px;
+	height:45px;
+}
+.checkWay span{
+	display:block;
+}
+.password span:last-child{
+	display:block;
+	width:758px;
+	height:17px;
+	font-size:12px;
+	color:#ccc;
+}
+.book{
+	width:738px;
+	height:106px;
+}
+.agree,.acept{
+	display:flex;
+	vertical-align:middle;
+}
+.agree span,.acept span{
+	display:inline-block;
+	width:38px;
+	height:38px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background:white;
+	text-align:center;
+	cursor:pointer;
+}
+.agree span:hover,.acept span:hover{
+	border-color:red;
+}
+.agree span img,.acept span img{
+	width:33px;
+	height:32px;
+	display:none;
+}
+.agree p,.acept p{
+	display:inline-block;
+	line-height:38px;
+	margin-left:15px;
+}
+.book input{
+	display: block;
+	width:130px;
+	height:50px;
+    text-align: center;
+	font-size:21px;
+	color:white;
+    border: 1px solid transparent;
+    border-radius:4px;
+    background-image: linear-gradient(#ec4c34,#d21920);
+    cursor: pointer;
+	white-space:nowrap;
+	padding:10px 16px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.priceLess{
+	float:right;
+	padding:20px 15px;
+	width:150px;
+	height:auto;
+	margin-right:50px;
+}
+.priceLess p{
+	font-size:20px;
+	color: #3d3d3d;
+	margin-bottom:20px
+}
+.priceLess ul li{
+	color: #3d3d3d;
+	font-size:12px;
+	list-style-type:disc;
+	margin-left:15px;
+}
+
+/*隐藏提示*/
+.phone p,.email p{
+	color:red;
+	font-size:12px;
+	display:none;
+}

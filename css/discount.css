@@ -1,0 +1,32 @@
+@import "commonIndex.css";
+/*中间内容*/
+.middleCont{
+	width:100%;
+    padding: 40px 0 250px 0;
+    background:rgb(25,25,25);
+}
+.middleCont .cover img{
+    display: block;
+    margin: 0 auto;
+}
+.cover .coverMiddle{
+	position:relative;
+    margin:0 auto;
+	width:1120px;
+	height:200px;
+	background:rgb(51,51,51);
+}
+.cover .coverMiddle img:nth-child(1){
+	padding-top:45px;
+}
+.cover .coverMiddle img:nth-child(2){
+	cursor:pointer;
+}
+.cover .coverMiddle img:nth-child(3){
+	cursor:pointer;
+	display:none;
+	position:absolute;
+	top:98px;
+	left:520px;
+}
+

@@ -1,0 +1,14 @@
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,table,tr,td,form,fieldset{
+	margin:0;
+	padding:0;
+}
+body{
+	background:rgb(243,243,243);
+	height:1000px;
+}
+ul,ol,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}

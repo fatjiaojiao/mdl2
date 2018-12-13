@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			/*头部导航*/
+			body{
+				background:#191919;
+				height:1000px;
+				/*position:relative;*/
+			}
+			.header{
+				width:100%;
+				background:#000000;
+				margin:0 auto;
+				display:flex;
+				border-bottom:1px solid #717171;
+				position:relative;
+			}
+			.headBox{
+				display:flex;
+				margin:0 auto;
+				text-align:center;
+			}
+			.headBox div{
+				width:224px;
+				height:120px;
+				margin:0 auto;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+			}
+			.all i{
+				font-size:40px;
+				color:#7f7f7f;
+			}
+			.font{
+				font-size:14px;
+				color:#7f7f7f;
+			}
+			.heart{
+				width:224px;
+				height:120px;
+				background-image:url(img/logo.gif);
+				background-size:224px 120px;
+			}
+			/*导航菜单*/
+			
+			.all .navMenu{
+				position:absolute;
+				top:120px;
+				left:0;
+				width:100%;
+				background:pink;
+				display:none;
+			}
+		</style>
+	</head>
+	<body>	
+		<!--头部导航-->
+		<div class="header">
+			<div class="headBox">
+				<div class="all">
+					<i class="iconfont icon-maidanglao"></i>
+					<p class="font">麦当劳</p>
+					<!--导航菜单-->
+					<div class="navMenu">
+						<ul class="bigLis">
+							<li class="littleTitle">关于我们
+								<ul>
+									<li><a href="#">公司介绍</a></li>
+									<li><a href="#">我就喜欢</a></li>
+									<li><a href="#">金拱门</a></li>
+									<li><a href="#">经营理念</a></li>
+									<li><a href="#">麦当劳叔叔</a></li>
+									<li><a href="#">HAPPY</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="all">
+					<i class="iconfont icon-hanbao"></i>
+					<p class="font">爱美食</p>
+				</div>
+				<div class="heart"></div>
+				<div class="all">
+					<i class="iconfont icon-hebaodan"></i>
+					<p class="font">爱品质</p>
+				</div>
+				<div class="all">
+					<i class="iconfont icon-smile"></i>
+					<p class="font">爱成长</p>
+				</div>
+			</div>
+	</div>
+
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/getElementTools.js"></script>
+<script type="text/javascript">
+
+	//鼠标滑过事件菜单出现
+	$(".all").eq(0).mouseover(function(){
+		$(".all").eq(0).children().css({"color":"#ffc627"})
+		$(".navMenu").css({"display":"block"});
+	})
+	$(".navMenu").mouseout(function(){
+		$(".all").eq(0).children().css({"color":"#7f7f7f"})
+		$(".navMenu").eq(0).css({"display":"none"});
+	})
+	
+</script>
+<div>
+				<img src="img/2.jpg" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+			<div>
+				<img src="" alt="" />
+				<div>
+					<h4></h4>
+				</div>
+				<div class="time"></div>
+			</div>
+
+
+
+
+
+<td><a href="">安庆市</a></td>
+<td><a href="">鞍山市</a></td>
+<td><a href="">保定市</a></td>
+<td><a href="">宝鸡市</a></td>
+<td><a href="">百色市</a></td>
+<td><a href="">宝山市</a></td>
+<td><a href="">包头市</a></td>
+<td><a href="">巴山市</a></td>
+<td><a href="">长沙市</a></td>
+<td><a href="">长春市</a></td>
+<td><a href="">安庆市</a></td>
+<td><a href="">鞍山市</a></td>
+<td><a href="">保定市</a></td>
+<td><a href="">宝鸡市</a></td>
+<td><a href="">百色市</a></td>
+<td><a href="">宝山市</a></td>
+<td><a href="">包头市</a></td>
+<td><a href="">巴山市</a></td>
+<td><a href="">长沙市</a></td>
+<td><a href="">长春市</a></td>
+<td><a href="">安庆市</a></td>
+<td><a href="">鞍山市</a></td>
+<td><a href="">保定市</a></td>
+<td><a href="">宝鸡市</a></td>
+<td><a href="">百色市</a></td>
+<td><a href="">宝山市</a></td>
+<td><a href="">包头市</a></td>
+<td><a href="">巴山市</a></td>
+<td><a href="">长沙市</a></td>
+<td><a href="">长春市</a></td>
+<td><a href="">安庆市</a></td>
+<td><a href="">鞍山市</a></td>
+<td><a href="">保定市</a></td>
+<td><a href="">宝鸡市</a></td>
+<td><a href="">百色市</a></td>
+<td><a href="">宝山市</a></td>
+<td><a href="">包头市</a></td>
+<td><a href="">巴山市</a></td>
+<td><a href="">长沙市</a></td>
+<td><a href="">长春市</a></td>

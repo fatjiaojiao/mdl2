@@ -1,0 +1,136 @@
+@import "commonChildPage.css";
+.foodBox{
+	display:flex;
+	min-height:980px;
+	width:1140px;
+	margin:0 auto;
+}
+.fixList{
+    width:182px;
+    height:334px;
+	background-color: #ffc423;
+    font-size: 14px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    margin-left:5px;
+    margin-right:5px;
+    }
+.fixList .ulBox a{
+	display:block;
+	box-shadow: 0 2px 2px #d69c00;
+    border-radius: 4px;
+    width:152px;
+    height:21px;
+    padding:10px 15px;
+    color: #490409;;
+}
+.foodMenu{
+	font-size:15px;
+	color:#a25716;
+}
+.foodMenu li{
+	width:152px;
+	height:21px;
+	padding:10px 15px;
+	border-bottom: 1px solid #efaf00;
+	cursor:pointer;
+}
+.foodMenu li:hover{
+	color:red;
+	/*background:white;*/
+}
+.foodMenu li span:first-child{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	background:#eda74f;
+}
+.imgSpan{
+	position:absolute;
+	top:415px;
+	left:225px;
+}
+.hidTable{
+	display:none;
+}
+.picFont{
+	height:auto;
+	position:relative;
+	padding:0 5px;
+    margin-top:15px;
+}
+.nowUrl{
+	width:949px;
+	height:51px;
+	line-height:51px;
+	font-size:12px;
+	color: #35b6f9;
+}
+/*中间菜品样式*/
+.foods{
+	width:630px;
+}
+.foodSpace{
+	width:200px;
+	height:260px;
+	float:left;
+	padding:0 5px;
+	position:relative;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.first{
+	background:white;
+	box-shadow:0 4px 8px #ddd;
+	text-align:center;
+	padding:15px;
+}
+.second{
+	background-image: linear-gradient(rgb(244,244,244),white);
+}
+.second div{
+	display:inline-block;
+}
+.second .foodChild{
+	width:180px;
+	height:34px;
+	padding:10px 15px;
+}
+.second span{
+	color:#44900c;
+	font-size:12px;
+}
+.second span:first-child{
+	font-weight:800;
+}
+.foodChild a{
+	display:inline-block;
+	text-align:center;
+	width:55px;
+	height:20px;
+	font-size:14px;
+	color:white;background-image: linear-gradient(#ec4c34,#d21920);
+	padding:6px 12px;
+	margin-right:10px;
+	float:right;
+}
+.foodSpace h5{
+	width:170px;
+	height:38px;
+	font-size:18px;
+	font-weight:300;
+    color: #3d3d3d;
+}
+.foodSpace img{
+	width:170px;
+	height:128px
+}
+.longPic img{
+	width:308px;
+	height:850px;
+	display:inline-block;
+	position:absolute;
+	top:51px;
+	right:10px;
+}

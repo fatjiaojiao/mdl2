@@ -1,0 +1,217 @@
+@import"COMMON.css";
+/*居中的大盒子*/
+.box{
+	margin:0 auto;
+	width:1140px;
+}
+/*头部的四个小盒子*/
+.head{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	position:relative;
+	padding-top:5px;
+	padding-bottom:8px;
+}
+.head a{
+	color:rgb(153,153,153);
+	font-size:12px;
+	line-height:12px;
+}
+.head a:hover{
+	color:rgb(51,51,51);
+}
+.head div a:first-child{
+	display:inline-block;
+	padding-right:14px;
+	border-right:1px solid rgb(153,153,153);
+}
+.head div a:last-child{
+	padding-left:14px;
+}
+.triangle{
+	width:0;
+	height:0;
+	border:3px solid transparent;
+	border-right-color:rgb(51,51,51);
+	position:absolute;
+	top:15px;
+	left:25px;
+}
+/*导航*/
+.nav{
+	height:61px;
+	width:100%;
+	background:rgb(61,61,61);
+	display:flex;
+	vertical-align:middle;
+	border-radius:5px;
+	box-shadow:0px 5px 8px 0px #aaa;
+}
+.nav img{
+	width:153px;
+	height:47px;
+	padding:7px 25px;
+}
+.nav div:first-child{
+	background:rgb(231,27,36);
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.nav div a:hover{
+	color:rgb(217,217,217);
+}
+.navBox .triSpan:hover{
+	border-top-color:rgb(217,217,217);
+}
+.navBox{
+	background:rgb(61,61,61);
+	padding-left:30px;
+	padding-right:30px;
+	border-right:1px solid #555;
+	margin-right:30px;
+}
+.navBox:last-child{
+	border-right:none;
+}
+.navBox a{
+	line-height:60px;
+	text-align:center;
+	color:white;
+	padding:7px 15px;
+	font-size:18px;
+}
+.nav .noPad{
+	padding-left:0;
+	position:relative;
+}
+.navBox a i{
+	color:rgb(127,127,127);
+	padding-right:12px;
+	font-size:26px;
+}
+.navBox #noneUL{
+	z-index:1;
+	color:white;
+	position:absolute;
+	top:65px;
+	left:10px;
+	display:none;
+}
+.disUl span{
+	width:0;
+	height:0;
+	border:6px solid transparent;
+	border-bottom-color:rgb(61,61,61);
+	position:absolute;
+	top:-11px;
+	left:50px;
+	z-index:1;
+}
+.navBox .disUl ul{
+	padding-top:5px;
+	padding-bottom:5px;
+	background:rgb(61,61,61);
+}
+.navBox .disUl ul li{
+	padding:3px 10px;
+	width:150px;
+	height:25px;
+}
+.navBox .disUl ul li a{
+	text-align:left;
+	line-height:25px;
+	font-size:16px;
+}
+.navBox .disUl ul li:hover{
+	background:rgb(245,245,245);
+}
+.navBox .disUl ul li a:hover{
+	
+	color:rgb(38,38,38);
+}
+.noPad .triSpan{
+	width:0;
+	height:0;
+	border:5px solid transparent;
+	border-top-color:white;
+	position:absolute;
+	top:30px;
+	left:90px;
+}
+/*底部列表*/
+.footBox{
+	width:100%;
+	background:rgb(53,53,53);
+}
+.footList{
+	margin:0 auto;
+	width:1140px;
+	height:276px;
+	background:rgb(53,53,53);
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.lisBox{
+	width:255px;
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+}
+.lisBox h3{
+	font-weight:300;
+	color:white;
+	margin-bottom:20px;
+}
+.lisBox ul a{
+	color:rgb(114,114,114);
+	font-size:15px;
+}
+.lisBox ul a:hover{
+	color:rgb(152,152,152);
+}
+.lisBox ul li{
+	margin-bottom:10px;
+}
+.footAI li a{
+	display:flex;
+	vertical-align:middle;
+	line-height:34px;
+	color:rgb(114,114,114);
+}
+/*.footAI li{
+}*/
+.footAI li i{
+	background:white;
+	border-radius:50%;
+	font-size:35px;
+	margin-right:20px;
+}
+.footAI li:first-child .iconfont{
+	color:rgb(229,19,19);
+}
+.footAI li:last-child .iconfont{
+	color:rgb(15,206,26);
+}
+/*底部工商*/
+.police{
+	width:100%;
+	height:111px;
+	background:rgb(29,29,29);
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+.check{
+	font-size:12px;
+	color:rgb(180,180,180);
+}
+.check a{
+	color:white;
+}
+.check a:hover{
+	color:rgb(217,217,217);
+}
+.check img{
+	padding-top:15px;
+}

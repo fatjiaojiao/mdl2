@@ -1,0 +1,212 @@
+@import "commonChildPage.css";
+/*内容*/
+input{
+	outline:none;
+}
+table,tr,td,th{
+	border-collapse:collapse;
+}
+.box{
+	margin-bottom:50px;
+}
+.cutLine{
+	width:100%;
+	text-align:center;
+}
+.cutLine h1{
+	font-size:16px;
+	border-bottom:1px dashed rgb(161,161,161);
+	line-height:16px;
+	padding:10px 0;
+	margin-bottom:10px;
+}
+form{
+	padding-top:20px;
+	width:100%;
+}
+.headBox{
+	padding:0 60px;
+	margin-bottom:10px;
+}
+.headBox h2{
+	color:#f3ad12;
+	font-size:20px;
+	font-weight:300;
+	line-height:30px;
+}
+.headBox p{
+	line-height:17px;
+	font-size:12px;
+	color:rgb(176,176,176);
+}
+.contBox{
+	width:1020px;
+	height:448px;
+	padding-top:30px;
+	padding-left:60px;
+	padding-right:60px;
+	background:white;
+	position:relative;
+}
+.city span{
+	display:block;
+	font-size:16px;
+	margin:5px;
+	color:#3D3D3D;
+}
+.city input{
+	width:398px;
+	height:44px;
+	padding:0 16px;
+	font-size:14px;
+	border: solid 1px #B8B8B8;
+    color: #555;
+    border-radius:4px;
+}
+
+.hiddenFont{
+	opacity:0;
+	width:440px;
+	height:30px;
+	font-size:12px;
+	color:#B6B6B6;
+}
+
+.hidden{
+	width:435px;
+	border-radius:4px;
+	position:absolute;
+	top:100px;
+	left:60px;
+	display:none;
+}
+.cityBox{
+	background:white;
+	border-radius:4px;
+	width:435px;
+	height:350px;
+	overflow:auto;
+	border:1px solid #B8B8B8;
+}
+.rowOne .tabTit tr{
+	cursor:pointer;
+	background:#E7E7E7;
+	display:block;
+	width:435px;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color: #3D3D3D;
+	font-weight:300;
+}
+.tabTit tr td:first-child{
+	padding:0 245px 0 20px;
+}
+.tabTit tr td:last-child{
+	font-size:14px;
+	text-decoration:underline;
+}
+.cityTable tr{
+	/*margin:0 auto;*/
+	text-align:center;
+}
+.cityTable tr td{
+	text-align:center;
+	display:inline-block;
+	width:71px;
+	height:40px;
+	line-height:40px;
+	padding:5px;
+	white-space:wrap;
+	cursor:pointer;
+	font-size: 14px;
+	color: #35B6F9;
+}
+.btnBox{
+	display:flex;
+	position:absolute;
+	left:520px;
+	top:62px;
+	opacity:0;
+}
+.btn{
+	background-image: linear-gradient(#ec4c34,#d21920);
+	width:78px;
+	height:44px;
+	text-align:center;
+	line-height:44px;
+	margin-right:10px;
+	border-radius:4px;
+	cursor:pointer;
+}
+.btn span{
+	font-size:18px;
+	color:white;
+}
+
+.addBox{
+	width:100%;
+	height:92px;
+}
+.address{
+	display:inline-block;
+	width:220px;
+	height:46px;
+	font-size:16px;
+	color:#3D3D3D;
+}
+.address .font{
+	width:220px;
+	height:20px;
+	margin-bottom:5px;
+}
+.address div input{
+	width:178px;
+	height:44px;
+	font-size:14px;
+	border: 1px solid #ccc;
+    color: #555;
+    border-radius:4px;
+    background:#E7E7E7;
+    outline:none;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.reqBox{
+	height: 20px;
+    font-size: 16px;
+    color: #3D3D3D;
+    margin-bottom: 5px;
+}
+.request .reqInput .text{
+	overflow:auto;
+	background:rgb(235, 235, 228);
+	display:inline-block;
+	padding: 10px 16px;
+    line-height: 14px;
+    width: 838px;
+    height: 148px;
+    border: solid 1px #B8B8B8;
+    font-size: 14px;
+    color: #555;
+    border-radius: 4px;
+    outline:none;
+}
+.refer a{
+	display: block;
+	width:144px;
+	height:40px;
+	line-height:40px;
+    text-align: center;
+	font-size:20px;
+	color:white;
+    border: 1px solid transparent;
+    border-radius:4px;
+    background-image: linear-gradient(#ec4c34,#d21920);
+    cursor: pointer;
+	white-space:nowrap;
+	padding:10px 16px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
